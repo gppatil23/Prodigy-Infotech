@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+    position:absolute;
+}
+.container{
+    width:550px;
+    margin: 100px auto;
+    padding: 10px;
+    position: relative;
+    height: 500px;
+}
+.input{
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    background: azure;
+    border-radius: 10px;
+    justify-content: center;
+    height: 100px;
+    
+}
+.input input[type = "text"]{
+    height: 2rem;
+    width: 20rem;
+    background: black;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid brown;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+.input input[type = "submit"]{
+    height: 3rem;
+    width: 6rem;
+    background: blue ;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.display{
+    text-align: center;
+    width: 520px;
+    color: #13aef1;
+}
+
+.wrapper{
+    margin: 0 9rem;
+    background-color: rgba(20, 209, 143, 0.847);
+    height: 35vh;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: rgba(30, 0, 255, 0.944);
+    filter: blur();
+    color: rgb(255, 255, 255);
+    border-radius: 10px 10px 0 0 ;
+
+}
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: rgb(252, 254, 255);
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.wrapper h2 span { 
+    font-size: 26px;
+    color: cyan;
+
+}
+.wrapper p span{
+    color: violet;
+    font-size: 25px;
+    
+}
