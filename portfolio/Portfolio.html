@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="website icon" type="png" href="images/070c722f-4cd2-41bc-9eed-440120bda924.jpg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="Portfolio.js"></script>
+
+
+</head>
+
+<body>
+    <img src="images/wp6344300.jpg" alt="image" id="bgimg">
+    <div class="menu">
+        <a href="#firstpart" >Home</a>
+        <a href="#secondpage">Skills</a>
+        <a href="#thirdpage">Projects</a>
+        <a href="#fourthpage">Contact</a>
+    </div>
+    <div id="firstpart">
+       
+        <label id="info">Hi, I am <span id="name">Gaurav Patil</span><br>
+            Student of <br><span id="branch">Information Technology</span></label>
+
+        <div class="myphoto"><img src="images/my photo.jpeg" ></div>
+        <p>Hello! I am Gaurav Patil. I am a engineering student specializing in Information Technology (IT)
+            in
+            Progressive Education Society's Modern College of Engineering(PESMCOE) with Savitribai Phule Pune
+            University(SPPU).
+            I have learned programming languages like JAVA, SQL, HTML, CSS, JavaScript(JS) etc.
+        </p>
+        <div id="topmedia">
+            <img src="images/icons8-linkedin-logo-100.png" id="linkdin" onclick="linkedin()">
+            <img src="images/icons8-github-100.png" id="github" onclick="github()">
+            <img src="images/icons8-instagram-logo-100.png" id="instagram" onclick="instagram()">
+            <img src="images/icons8-gmail-logo-100.png" id="gmail" onclick="gmail()">
+        </div>
+    </div>
+
+    <div id="secondpage">
+
+        <div id="projectframe">
+            <h2 id="skilltxt">Skills & <span>Projects</span></h2>
+           
+            <div id="skills">
+                <ul>
+                    <li><img src="images/java.png">
+                        <div class="javaprog"></div><label>Java</label><span>70%</span>
+                    </li>
+                    <li><img src="images/database.png">
+                        <div class="sqlprog""></div><label>SQL</label><span>80%</span>
+                    </li>
+                    <li><img src="images/html.png">
+                            <div class="htmlprog"></div><label>HTML</label><span>96%</span>
+                    </li>
+                    <li><img src="images/css-3.png">
+                        <div class="cssprog"></div><label>CSS</label><span>95%</span>
+                    </li>
+                    <li><img src="images/java-script.png">
+                        <div class="jsprog"></div><label>JavaScript</label><span>52%</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="projects">
+                <ul>
+                    <li><img src="images/bmi.png" id="bmilogo">
+                        <h4>A BMI Calculator Mobile Application which calculates Body Mass Index </h4>
+                    </li>
+                    <li><img src="images/google.png" id="googlelogo">
+                        <h4>A Google Clone Engine</h4>
+                    </li>
+                    <li><img src="images/income.png"financelogo">
+                        <h4>Professional Finance Manager which keeps record of all Income & Expense</h4>
+                    </li>
+                    <li><img src="images/netflix.png" id="netflixlogo">
+                        <h4>Netflix design code by using HTML & CSS</h4>
+                    </li>
+                    <li><img src="images/social.png" id="spotifylogo">
+                        <h4>Spotify Home Page by using HTML & CSS</h4>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div id="thirdpage">
+        <div id="bmiinfo">
+            <div id="bmihead"><img src="images/bmi.png">
+                <h2>BMI Calculator</h2>
+            </div>
+            <p>Developed BMI Calculator Mobile Application which calculates accurate Body Mass Index of Human Body which
+               clerifies how fit is someone.This Application is based on JAVA programming language in Android Studio.
+            </p>
+            <button id="view1">View code </button>
+            <div id="bmiimges">
+                <img src="images/bmi1.jpg">
+                <img src="images/bmi2.jpg">
+                <img src="images/bmi3.jpg">
+            </div>
+        </div>
+        <div id="googleinfo">
+            <div id="googlehead"><img src="images/google.png">
+                <h2 id="googletxt">Google Chrome Engine</h2>
+            </div>
+            <p>Developed a well working Google Chrome Engine which is a copy of original Google Chrome Engine and works
+                90%
+                as original one where you can search across google, accessing Gmail and other options. </p>
+            <button id="view2">View code</button>
+            <div id="googleimges">
+                <img src="images/googlepage.png">
+            </div>
+        </div>
+        <div id="financeinfo">
+            <div id="financehead"><img src="images/income.png">
+                <h2 id="financetxt">Professional Finance Management</h2>
+            </div>
+            <p>Developed a fully working Professional Finance Management where user can keep track of his/her Income and
+                Expenses.
+                User can save their Income/Expense record in list format per month. He can also add description about
+                their Income/Expense.</p>
+            <button id="view3">View code</button>
+            <div id="financeimges">
+                <img src="images/financeimg.png">
+            </div>
+        </div>
+
+        <div id="netflixinfo">
+            <div id="netflixhead"><img src="images/netflix.png">
+                <h2 id="netflixtxt">Netflix Clone</h2>
+            </div>
+            <p>Designed a Netflix clone frontend using HTML, CSS and JavaScript</p>
+            <button id="view4">View code</button>
+            <div id="netfliximges">
+                <img src="images/netflixpage.png">
+            </div>
+        </div>
+
+    </div>
+    <div id="fourthpage">
+        <h2 id="contacttxt">Get in <span>Touch !</span> </h2>
+        <div id="media">
+            <img src="images/icons8-linkedin-logo-100.png" id="linkdin" onclick="linkedin()">
+            <img src="images/icons8-github-100.png" id="github" onclick="github()">
+            <img src="images/icons8-instagram-logo-100.png" id="instagram" onclick="instagram()">
+            <img src="images/icons8-gmail-logo-100.png" id="gmail" onclick="gmail()">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
